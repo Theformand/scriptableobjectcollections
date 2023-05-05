@@ -1,9 +1,7 @@
 # ScriptableObject-Collections
 A light system for managing collections of ScriptableObjects.
 
-# How to use
- Add via Unity Package Manager : ```com.theformand.socollection```
- 
+# How to use 
  Create a ScriptableObject (```MyDataObjectCollection.cs```, for example) that inherits from ```SOCollection<MyDataObject>```
  
  You can choose to only auto-add or only auto-remove if you wish.
