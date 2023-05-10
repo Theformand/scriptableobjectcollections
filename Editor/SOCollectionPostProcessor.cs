@@ -8,7 +8,7 @@ public class SOCollectionDeleteProcessor : AssetModificationProcessor
 {
     public static AssetDeleteResult OnWillDeleteAsset(string path, RemoveAssetOptions options)
     {
-        var result = AssetDeleteResult.DidDelete;
+        var result = AssetDeleteResult.DidNotDelete;
         var so = AssetDatabase.LoadAssetAtPath<ScriptableObject>(path);
         if (so)
         {

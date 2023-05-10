@@ -1,6 +1,6 @@
 {
 	"name" : "com.theformand.socollection",
-	"version" : "1.0.0",
+	"version" : "1.0.1",
 	"displayName" : "ScriptableObject Collections",
 	"description" : "Automatically add/remove your SO's to a SOCollection in the same folder",
 	"unity": "2019.4",
